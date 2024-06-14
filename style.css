@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
+    color: #333;
 }
 
 header {
@@ -27,10 +28,12 @@ nav li {
 nav a {
     color: #fff;
     text-decoration: none;
+    padding: 10px;
 }
 
+nav a.active,
 nav a:hover {
-    color: #e0e0e0;
+    background-color: #3e8e41;
 }
 
 main {
@@ -60,12 +63,18 @@ main {
     margin-bottom: 20px;
 }
 
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
 .btn {
     background-color: #4CAF50;
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
+    margin: 0 10px;
 }
 
 .btn:hover {
