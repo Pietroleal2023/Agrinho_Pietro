@@ -1,78 +1,80 @@
-:root {
-    --cor-de-fundo: #00CED1;
-    --verde: #00FF7F;
-    --branco: #FFFFFF;
-    --botao-ativo: #00FF7F;
-    --botao-inativo: rgba(58, 55, 94, 0.5);
-    --texto-fundo: rgba(58, 55, 94, 0.3);
-}
-
 body {
-    background-color: var(--cor-de-fundo);
-    color: var(--branco);
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
 }
 
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
 
-.conteudo-principal {
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #e0e0e0;
+}
+
+main {
+    padding: 40px;
+}
+
+.hero {
+    background-image: url('campo.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
 }
 
-.titulo-principal {
-    text-align: left;
-    width: 100%;
-    font-size: 32px;
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
 }
 
-.titulo-principal span {
-    color: var(--verde);
+.hero p {
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
-.botao {
-    font-family: "Crakra Petch", sans-serif;
-    background-color: var(--botao-inativo);
-    color: var(--branco);
-    display: flex;
-    justify-content: center;
-    padding: 1em;
-    font-size: 18px;
-    align-items: center;
-    width: 100%;
-    border-bottom: 4px solid var(--botao-ativo);
-    border-left: 2px solid var(--botao-ativo);
-    border-right: 2px solid var(--botao-ativo);
-    border-top: none;
+.btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
 }
 
-.botao:first-child {
-    border-radius: 40px 40px 0 0;
+.btn:hover {
+    background-color: #3e8e41;
 }
 
-.botoes {
-    display: block;
-}
-
-.ativo {
-    background-color: var(--botao-ativo);
-    border-bottom: 4px solid var(--verde);
-}
-
-@media screen and (min-width: 768px) {
-    .botoes {
-        display: flex;
-    }
-
-    .botao:first-child {
-        border-radius: 40px 0 0 0;
-    }
-
-    .botao:last-child {
-        border-radius: 0 40px 0 0;
-    }
+footer {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
 }
