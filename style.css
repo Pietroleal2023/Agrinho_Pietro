@@ -1,89 +1,41 @@
+/* Estilo geral */
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
     background-color: #f0f0f0;
     color: #333;
+    margin: 0;
+    padding: 0;
 }
 
-header {
-    background-color: #4CAF50;
-    color: #fff;
-    padding: 20px;
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
     text-align: center;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+h1 {
+    color: #4CAF50;
+    margin-bottom: 40px;
+}
+
+/* Estilo dos botões */
+.button-container {
     display: flex;
     justify-content: center;
-}
-
-nav li {
-    margin: 0 10px;
-}
-
-nav a {
-    color: #fff;
-    text-decoration: none;
-    padding: 10px;
-}
-
-nav a.active,
-nav a:hover {
-    background-color: #3e8e41;
-}
-
-main {
-    padding: 40px;
-}
-
-.hero {
-    background-image: url('campo.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-}
-
-.hero h1 {
-    font-size: 48px;
-    margin-bottom: 10px;
-}
-
-.hero p {
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
-.buttons {
-    display: flex;
-    justify-content: center;
+    gap: 20px;
 }
 
 .btn {
+    display: inline-block;
     background-color: #4CAF50;
     color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
     text-decoration: none;
-    margin: 0 10px;
+    padding: 12px 24px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
 }
 
 .btn:hover {
     background-color: #3e8e41;
-}
-
-footer {
-    background-color: #4CAF50;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
 }
