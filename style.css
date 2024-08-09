@@ -1,42 +1,36 @@
 body {
-    background-color: #e0f7e0; /* Tons de verde que lembram o campo */
+    background-color: #c2e6c2; /* Cor de fundo em tons de verde */
     font-family: Arial, sans-serif;
-    color: #333;
     text-align: justify;
+    margin: 0;
+    padding: 20px;
 }
 
 header {
     text-align: center;
-    padding: 20px;
-    background-color: #4caf50;
-    color: white;
+    margin-bottom: 20px;
 }
 
-nav {
+.buttons {
     display: flex;
     justify-content: center;
-    margin: 20px 0;
+    gap: 20px;
 }
 
-button {
-    background-color: #4caf50;
-    border: none;
+.button {
+    background-color: #4CAF50; /* Verde escuro */
     color: white;
-    padding: 15px 32px;
-    text-align: center;
+    padding: 15px 30px;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 12px;
+    border-radius: 10px; /* Quinas arredondadas */
     transition: background-color 0.3s;
+    font-size: 1.2em; /* Tamanho do texto dos botões */
 }
 
-button:hover {
-    background-color: #66bb6a;
+.button:hover {
+    background-color: #66bb6a; /* Verde claro ao passar o mouse */
 }
 
 main {
-    padding: 20px;
+    font-size: 1.5em; /* Texto grande e explicativo */
 }
