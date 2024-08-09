@@ -1,5 +1,5 @@
 body {
-    background-color: #d9f7d9; /* Cor de fundo que lembra o campo */
+    background-color: #c2e6c2; /* Cor de fundo em tons de verde */
     font-family: Arial, sans-serif;
     text-align: justify;
     margin: 0;
@@ -31,5 +31,5 @@ header {
 }
 
 main {
-    font-size: 1.2em;
+    font-size: 1.5em; /* Texto grande e explicativo */
 }
