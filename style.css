@@ -1,5 +1,5 @@
 body {
-    background-color: #c2e6c2; /* Cor de fundo em tons de verde */
+    background-color: #4CAF50; /* Cor de fundo em verde */
     font-family: Arial, sans-serif;
     text-align: justify;
     margin: 0;
@@ -18,7 +18,7 @@ header {
 }
 
 .button {
-    background-color: #4CAF50; /* Verde escuro */
+    background-color: #66bb6a; /* Verde claro */
     color: white;
     padding: 15px 30px;
     text-decoration: none;
@@ -28,7 +28,7 @@ header {
 }
 
 .button:hover {
-    background-color: #66bb6a; /* Verde claro ao passar o mouse */
+    background-color: #81c784; /* Verde mais claro ao passar o mouse */
 }
 
 main {
