@@ -7,20 +7,25 @@
     <title>A Importância do Agro</title>
 </head>
 <body>
-    <div class="container">
-        <h1>A Importância do Agronegócio</h1>
-        <p style="text-align: justify;">
-            O agronegócio é um dos pilares da economia brasileira, responsável por uma significativa parte do PIB e pela geração de milhões de empregos. 
-            A produção de alimentos, fibras e biocombustíveis é essencial para a subsistência da população e para o desenvolvimento do país. 
-            Por exemplo, a soja e o milho são culturas que não apenas abastecem o mercado interno, mas também são grandes exportadoras, 
-            contribuindo para a balança comercial do Brasil.
+    <header>
+        <div class="buttons">
+            <a href="index.html" class="button">Voltar</a>
+        </div>
+    </header>
+    <main>
+        <h1>A Importância do Agro para a Cidade</h1>
+        <p>
+            O agro desempenha um papel crucial na vida urbana. Ele garante a segurança alimentar, 
+            fornece matérias-primas para a indústria e cria oportunidades de emprego.
         </p>
-        <p style="text-align: justify;">
-            Além disso, o agronegócio promove a inclusão social e o desenvolvimento rural, proporcionando melhores condições de vida 
-            para os agricultores e suas famílias. A implementação de práticas sustentáveis e a adoção de tecnologias avançadas 
-            têm potencializado a produção, garantindo a segurança alimentar e a preservação dos recursos naturais.
+        <p>
+            Além disso, práticas agrícolas sustentáveis ajudam a preservar o meio ambiente, 
+            promovendo um equilíbrio entre produção e conservação.
         </p>
-        <a href="index.html" class="button">Voltar</a>
-    </div>
+        <p>
+            Exemplos de práticas sustentáveis incluem o uso de técnicas de rotação de culturas, 
+            que melhoram a qualidade do solo, e a agricultura de precisão, que otimiza o uso de recursos.
+        </p>
+    </main>
 </body>
 </html>
