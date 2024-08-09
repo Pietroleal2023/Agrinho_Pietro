@@ -1,13 +1,14 @@
 body {
-    background-color: #e0f7e0; /* Cor de fundo relacionada ao agro */
+    background-color: #d9f7d9; /* Cor de fundo que lembra o campo */
     font-family: Arial, sans-serif;
+    text-align: justify;
     margin: 0;
-    padding: 0;
+    padding: 20px;
 }
 
-.container {
+header {
     text-align: center;
-    padding: 50px;
+    margin-bottom: 20px;
 }
 
 .buttons {
@@ -21,10 +22,14 @@ body {
     color: white;
     padding: 15px 30px;
     text-decoration: none;
-    border-radius: 10px; /* Bordas arredondadas */
+    border-radius: 10px; /* Quinas arredondadas */
     transition: background-color 0.3s;
 }
 
 .button:hover {
-    background-color: #66BB6A; /* Verde claro ao passar o mouse */
+    background-color: #66bb6a; /* Verde claro ao passar o mouse */
+}
+
+main {
+    font-size: 1.2em;
 }
