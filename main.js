@@ -1,3 +1,4 @@
+
 const botoes = document.querySelectorAll(".botao");
 const textos = document.querySelectorAll(".aba-conteudo");
 // Iterando sobre a lista de botões
@@ -47,4 +48,3 @@ function calculaTempo(tempoObjetivo) {
 for (let i = 0; i < contadores.length; i++) {
   contadores[i].textContent = calculaTempo(tempos[i]);
 }
-
