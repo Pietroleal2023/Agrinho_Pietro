@@ -3,19 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A Importância do Agro</title>
     <link rel="stylesheet" href="styles.css">
+    <title>A Importância do Agro</title>
 </head>
 <body>
     <header>
-        <h1>A Importância do Agro</h1>
+        <div class="buttons">
+            <a href="index.html" class="button">Voltar</a>
+        </div>
     </header>
     <main>
-        <section>
-            <h2>O Agro na Nossa Cidade</h2>
-            <p>O agronegócio é fundamental para a economia da nossa cidade. Ele gera empregos, promove o desenvolvimento rural e contribui significativamente para o PIB local. Além disso, o agro é responsável por fornecer alimentos de qualidade para a população, garantindo a segurança alimentar.</p>
-            <p>Exemplos de impacto positivo do agro incluem a criação de cooperativas agrícolas, que fortalecem a economia local, e a implementação de práticas sustentáveis que preservam o meio ambiente.</p>
-        </section>
+        <h1>A Importância do Agro para a Cidade</h1>
+        <p>
+            O agro é fundamental para a vida urbana, pois garante a segurança alimentar e fornece 
+            matérias-primas essenciais para o dia a dia. Sem a produção agrícola, as cidades não 
+            teriam acesso a alimentos frescos, como frutas, verduras e grãos, que são essenciais para 
+            uma alimentação saudável.
+        </p>
+        <p>
+            Além disso, o setor agropecuário gera empregos e movimenta a economia local. Desde os 
+            trabalhadores rurais até os profissionais envolvidos na logística e distribuição, o agro 
+            é uma fonte de renda para muitas famílias. Isso contribui para o fortalecimento da 
+            economia local e para a redução da pobreza.
+        </p>
+        <p>
+            Exemplos de como o agro impacta as cidades incluem a produção de hortas urbanas, que 
+            promovem a agricultura sustentável e o consumo de produtos locais. Essas iniciativas não 
+            apenas melhoram a qualidade dos alimentos disponíveis, mas também fortalecem a comunidade 
+            e promovem a educação sobre práticas alimentares saudáveis.
+        </p>
     </main>
 </body>
 </html>
