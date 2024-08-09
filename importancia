@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>A Importância do Agro</title>
+</head>
+<body>
+    <div class="container">
+        <h1>A Importância do Agronegócio</h1>
+        <p style="text-align: justify;">
+            O agronegócio é um dos pilares da economia brasileira, responsável por uma significativa parte do PIB e pela geração de milhões de empregos. 
+            A produção de alimentos, fibras e biocombustíveis é essencial para a subsistência da população e para o desenvolvimento do país. 
+            Por exemplo, a soja e o milho são culturas que não apenas abastecem o mercado interno, mas também são grandes exportadoras, 
+            contribuindo para a balança comercial do Brasil.
+        </p>
+        <p style="text-align: justify;">
+            Além disso, o agronegócio promove a inclusão social e o desenvolvimento rural, proporcionando melhores condições de vida 
+            para os agricultores e suas famílias. A implementação de práticas sustentáveis e a adoção de tecnologias avançadas 
+            têm potencializado a produção, garantindo a segurança alimentar e a preservação dos recursos naturais.
+        </p>
+        <a href="index.html" class="button">Voltar</a>
+    </div>
+</body>
+</html>
